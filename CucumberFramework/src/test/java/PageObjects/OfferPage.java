@@ -27,5 +27,10 @@ public class OfferPage {
 		return driver.findElement(productName).getText();
 
 	}
+	
+	public void checkNewOffer()
+	{
+		System.out.println("This is test Message");
+	}
 
 }
